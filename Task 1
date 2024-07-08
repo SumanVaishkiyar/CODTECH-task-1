@@ -1,0 +1,14 @@
+#BASIC CALCULATOR
+F_NUM=int(input("Enter first number: "))
+S_NUM=int(input("Enter second number: "))
+operation=input("Enter operation among:+,-,*,/: ")
+if operation=="+":
+    print(F_NUM+S_NUM)
+elif operation=="-":
+    print(F_NUM-S_NUM)
+elif operation=="*":
+    print(F_NUM*S_NUM)
+elif operation=="/":
+    print(F_NUM/S_NUM)
+else:
+  print("invalid operation")
